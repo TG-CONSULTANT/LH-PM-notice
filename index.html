@@ -6,19 +6,30 @@
     <title>ลานหอย-แจ้งซ่อม</title>
     
     <link rel="icon" type="image/png" href="https://i.postimg.cc/sgNjQXx8/472262404-1135143085287340-4608536530853145579-n.jpg">
-    <link rel="apple-touch-icon" href="https://i.postimg.cc/sgNjQXx8/472262404-1135143085287340-4608536530853145579-n.jpg"> 
-    
+    <link rel="apple-touch-icon" href="https://i.postimg.cc/sgNjQXx8/472262404-1135143085287340-4608536530853145579-n.jpg">
+
+    <!-- Redirect แบบ meta refresh (เผื่อ JS โดนปิด) -->
+    <meta http-equiv="refresh" content="0; url=https://script.google.com/macros/s/AKfycbyoWzMySNzimno45ZAGXYvUg0TnqN7aQsthh_XWsmKc5H-7-VuCaafKscwr8I8L4nas/exec">
+
     <style>
-        body, html { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; }
-        /* เพิ่ม display: block เพื่อแก้ปัญหา scrollbar ซ้อน */
-        iframe { width: 100%; height: 100%; border: none; display: block; }
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Prompt', sans-serif;
+            background: #f0f0f0;
+            color: #666;
+        }
     </style>
 </head>
 <body>
-    <!-- แก้ไขตรงนี้: เพิ่ม allow="geolocation" เพื่อเปิดสิทธิ์ GPS -->
-    <iframe 
-        src="https://script.google.com/macros/s/AKfycbyoWzMySNzimno45ZAGXYvUg0TnqN7aQsthh_XWsmKc5H-7-VuCaafKscwr8I8L4nas/exec"
-        allow="geolocation">
-    </iframe>
+    <p>กำลังเปิดหน้าแจ้งซ่อม...</p>
+
+    <!-- Redirect แบบ JS (เร็วกว่า meta refresh) -->
+    <script>
+        window.location.replace("https://script.google.com/macros/s/AKfycbyoWzMySNzimno45ZAGXYvUg0TnqN7aQsthh_XWsmKc5H-7-VuCaafKscwr8I8L4nas/exec");
+    </script>
 </body>
 </html>
